@@ -8,5 +8,9 @@
     <Project Path="task1/task1.vcxproj" />
     <Project Path="task2/task2.vcxproj" />
   </Folder>
-  <Folder Name="/lab1/ex2/" />
+  <Folder Name="/lab1/ex2/">
+    <Project Path="ex2task1/ex2task1.vcxproj" />
+    <Project Path="ex2task2/ex2task2.vcxproj" />
+    <Project Path="ex2task3/ex2task3.vcxproj" />
+  </Folder>
 </Solution>
