@@ -13,4 +13,8 @@
     <Project Path="lab1/ex2/lab1_ex2_task2/lab1_ex2_task2.vcxproj" />
     <Project Path="lab1/ex2/lab1_ex2_task3/lab1_ex2_task3.vcxproj" />
   </Folder>
+  <Folder Name="/lab1/ex3/">
+    <Project Path="lab1/ex3/lab1_ex3_task1/lab1_ex3_task1.vcxproj" />
+    <Project Path="lab1/ex3/lab1_ex3_task2/lab1_ex3_task2.vcxproj" />
+  </Folder>
 </Solution>
