@@ -31,4 +31,7 @@
     <Project Path="lab1/ex5/lab1_ex5_task4/lab1_ex5_task4.vcxproj" />
     <Project Path="lab1/ex5/lab1_ex5_task5_(leak_fix)/lab1_ex5_task5_(leak_fix).vcxproj" />
   </Folder>
+  <Folder Name="/lab1/ex6/">
+    <Project Path="lab1/ex6/lab1_ex6_task1/lab1_ex6_task1.vcxproj" />
+  </Folder>
 </Solution>
