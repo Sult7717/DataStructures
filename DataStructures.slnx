@@ -1,0 +1,11 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/lab1/" />
+  <Folder Name="/lab1/ex1/">
+    <Project Path="task1/task1.vcxproj" />
+    <Project Path="task2/task2.vcxproj" />
+  </Folder>
+</Solution>
