@@ -24,4 +24,11 @@
     <Project Path="lab1/ex4/lab1_ex4_task4/lab1_ex4_task4.vcxproj" />
     <Project Path="lab1/ex4/lab1_ex4_task5/lab1_ex4_task5.vcxproj" />
   </Folder>
+  <Folder Name="/lab1/ex5/">
+    <Project Path="lab1/ex5/lab1_ex5_task1/lab1_ex5_task1.vcxproj" />
+    <Project Path="lab1/ex5/lab1_ex5_task2/lab1_ex5_task2.vcxproj" />
+    <Project Path="lab1/ex5/lab1_ex5_task3/lab1_ex5_task3.vcxproj" />
+    <Project Path="lab1/ex5/lab1_ex5_task4/lab1_ex5_task4.vcxproj" />
+    <Project Path="lab1/ex5/lab1_ex5_task5_(leak_fix)/lab1_ex5_task5_(leak_fix).vcxproj" />
+  </Folder>
 </Solution>
