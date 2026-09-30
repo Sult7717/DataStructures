@@ -36,9 +36,9 @@ void DemoGetPower(double base, int exponent)
 
 int main()
 {
-    double base;
-    int exponent;
-    char choice;
+    double base = 0.0;
+    int exponent = 0;
+    char choice = 'n';
 
     do
     {
@@ -52,7 +52,7 @@ int main()
         cout << "Do you want to continue? (y/n): ";
         cin >> choice;
         cout << endl;
-    } while (choice == 'y' || choice == 'Y' || choice == '1');
+    } while (choice == 'y' || choice == 'Y');
 
     return 0;
 }

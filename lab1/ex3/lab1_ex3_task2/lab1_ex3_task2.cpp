@@ -14,25 +14,25 @@ void RoundToTens(int& value)
 
     if (remainder < 5)
     {
-        value = (value / 10) * 10;
+        value = value / 10 * 10;
     }
     else
     {
         if (value >= 0)
         {
-            value = ((value / 10) + 1) * 10;
+            value = (value / 10 + 1) * 10;
         }
         else
         {
-            value = ((value / 10) - 1) * 10;
+            value = (value / 10 - 1) * 10;
         }
     }
 }
 
 int main()
 {
-    int number;
-    char choice;
+    int number = 0;
+    char choice = 'n';
 
     do
     {
@@ -46,7 +46,7 @@ int main()
         cout << "Do you want to round another number? (y/n): ";
         cin >> choice;
         cout << endl;
-    } while (choice == 'y' || choice == 'Y' || choice == '1');
+    } while (choice == 'y' || choice == 'Y');
 
     return 0;
 }
