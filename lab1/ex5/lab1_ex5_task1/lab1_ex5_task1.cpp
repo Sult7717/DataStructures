@@ -8,9 +8,9 @@ int main()
 
     int doubleSize = 8;
     double* doubleArray = new double[doubleSize]
-        {
-            1.0, 15.0, -8.2, -3.5, 12.6, 38.4, -0.5, 4.5
-        };
+    {
+        1.0, 15.0, -8.2, -3.5, 12.6, 38.4, -0.5, 4.5
+    };
 
     for (int i = 0; i < doubleSize; i++)
     {
@@ -24,9 +24,9 @@ int main()
 
     int boolSize = 8;
     bool* boolArray = new bool[boolSize] 
-        {
-            true, false, true, true, false, true, false, false
-        };
+    {
+        true, false, true, true, false, true, false, false
+    };
 
     for (int i = 0; i < boolSize; i++)
     {
