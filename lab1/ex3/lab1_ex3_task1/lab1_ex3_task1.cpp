@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// Возводит основание base в степень exponent
 double GetPower(double base, int exponent)
 {
     double result = 1.0;
@@ -26,7 +25,6 @@ double GetPower(double base, int exponent)
     return result;
 }
 
-// Демонстрирует работу функции GetPower в красивом формате
 void DemoGetPower(double base, int exponent)
 {
     double result = GetPower(base, exponent);
