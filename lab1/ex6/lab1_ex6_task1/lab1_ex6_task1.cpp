@@ -3,21 +3,16 @@
 
 using namespace std;
 
-//! \brief Структура, описывающая человека.
 class Person
 {
 private:
-    //! Имя человека.
     string _firstName;
 
-    //! Фамилия человека.
     string _lastName;
 
-    //! Возраст человека.
     unsigned _age;
 
 public:
-    // Геттеры и сеттеры строго по стандарту (Стр. 29 методички)
     void SetFirstName(string value) { _firstName = value; }
     string GetFirstName() const { return _firstName; }
 
@@ -30,7 +25,6 @@ public:
 
 const int PeopleCount = 5;
 
-//! \brief Выводит в консоль данные о человеке.
 void WritePerson(const Person& person)
 {
     cout << "First Name: " + person.GetFirstName()
@@ -101,7 +95,6 @@ void Task1_FindPersonByLastName()
     cout << "Enter last name: ";
     cin >> lastName;
 
-    // Логика линейного поиска через вызов геттера GetLastName()
     for (int i = 0; i < PeopleCount; i++)
     {
         if (people[i]->GetLastName() == lastName)
