@@ -5,33 +5,33 @@
   </Configurations>
   <Folder Name="/lab1/" />
   <Folder Name="/lab1/ex1/">
-    <Project Path="lab1/ex1/lab1_ex1_task1/lab1_ex1_task1.vcxproj" />
-    <Project Path="lab1/ex1/lab1_ex1_task2/lab1_ex1_task2.vcxproj" />
+    <Project Path="lab1/ex1/lab1_ex1_task1/lab1_ex1_task1.vcxproj" Id="3a8396de-dc87-485b-bbc9-c76bd8783a92" />
+    <Project Path="lab1/ex1/lab1_ex1_task2/lab1_ex1_task2.vcxproj" Id="41180b19-1ff5-4c7f-943e-f739a1fbd01d" />
   </Folder>
   <Folder Name="/lab1/ex2/">
-    <Project Path="lab1/ex2/lab1_ex2_task1/lab1_ex2_task1.vcxproj" />
-    <Project Path="lab1/ex2/lab1_ex2_task2/lab1_ex2_task2.vcxproj" />
-    <Project Path="lab1/ex2/lab1_ex2_task3/lab1_ex2_task3.vcxproj" />
+    <Project Path="lab1/ex2/lab1_ex2_task1/lab1_ex2_task1.vcxproj" Id="c8f11feb-b0e4-4e1c-a174-2555849afa64" />
+    <Project Path="lab1/ex2/lab1_ex2_task2/lab1_ex2_task2.vcxproj" Id="0636cbe9-6ea3-48ad-8055-8e665324d179" />
+    <Project Path="lab1/ex2/lab1_ex2_task3/lab1_ex2_task3.vcxproj" Id="964968e6-ad17-49e7-805e-3fa1144752f7" />
   </Folder>
   <Folder Name="/lab1/ex3/">
-    <Project Path="lab1/ex3/lab1_ex3_task1/lab1_ex3_task1.vcxproj" />
-    <Project Path="lab1/ex3/lab1_ex3_task2/lab1_ex3_task2.vcxproj" />
+    <Project Path="lab1/ex3/lab1_ex3_task1/lab1_ex3_task1.vcxproj" Id="9cb57422-9c0e-4f0f-82f1-5097075edee2" />
+    <Project Path="lab1/ex3/lab1_ex3_task2/lab1_ex3_task2.vcxproj" Id="7d4f481b-594d-403f-bb4c-ec8643d77433" />
   </Folder>
   <Folder Name="/lab1/ex4/">
-    <Project Path="lab1/ex4/lab1_ex4_task1/lab1_ex4_task1.vcxproj" />
-    <Project Path="lab1/ex4/lab1_ex4_task2/lab1_ex4_task2.vcxproj" />
-    <Project Path="lab1/ex4/lab1_ex4_task3/lab1_ex4_task3.vcxproj" />
-    <Project Path="lab1/ex4/lab1_ex4_task4/lab1_ex4_task4.vcxproj" />
-    <Project Path="lab1/ex4/lab1_ex4_task5/lab1_ex4_task5.vcxproj" />
+    <Project Path="lab1/ex4/lab1_ex4_task1/lab1_ex4_task1.vcxproj" Id="41e172b7-6df4-4827-a26e-cd9ccf420d79" />
+    <Project Path="lab1/ex4/lab1_ex4_task2/lab1_ex4_task2.vcxproj" Id="2d693a44-85c3-4be5-8e93-54d048f40c84" />
+    <Project Path="lab1/ex4/lab1_ex4_task3/lab1_ex4_task3.vcxproj" Id="7a43e636-1ee0-4dc2-be5b-fe206138bbc5" />
+    <Project Path="lab1/ex4/lab1_ex4_task4/lab1_ex4_task4.vcxproj" Id="91f7727e-d3e6-4792-bd65-ecfd8d1ff2fb" />
+    <Project Path="lab1/ex4/lab1_ex4_task5/lab1_ex4_task5.vcxproj" Id="7e8ddbda-978f-4d91-8a22-9e82d3f3dcff" />
   </Folder>
   <Folder Name="/lab1/ex5/">
-    <Project Path="lab1/ex5/lab1_ex5_task1/lab1_ex5_task1.vcxproj" />
-    <Project Path="lab1/ex5/lab1_ex5_task2/lab1_ex5_task2.vcxproj" />
-    <Project Path="lab1/ex5/lab1_ex5_task3/lab1_ex5_task3.vcxproj" />
-    <Project Path="lab1/ex5/lab1_ex5_task4/lab1_ex5_task4.vcxproj" />
-    <Project Path="lab1/ex5/lab1_ex5_task5_(leak_fix)/lab1_ex5_task5_(leak_fix).vcxproj" />
+    <Project Path="lab1/ex5/lab1_ex5_task1/lab1_ex5_task1.vcxproj" Id="bab686ef-0fad-4f7e-8b26-3e37821e238e" />
+    <Project Path="lab1/ex5/lab1_ex5_task2/lab1_ex5_task2.vcxproj" Id="758500b1-66f3-45c1-96c8-acabb96219b9" />
+    <Project Path="lab1/ex5/lab1_ex5_task3/lab1_ex5_task3.vcxproj" Id="5d15011c-e2a4-4a12-b1fc-5273dcef5ecd" />
+    <Project Path="lab1/ex5/lab1_ex5_task4/lab1_ex5_task4.vcxproj" Id="f9cad5f7-fde6-4f91-bf0b-965b33ac5391" />
+    <Project Path="lab1/ex5/lab1_ex5_task5_(leak_fix)/lab1_ex5_task5_(leak_fix).vcxproj" Id="2ef99484-b2f0-4ffe-91bd-9f2b33ade170" />
   </Folder>
   <Folder Name="/lab1/ex6/">
-    <Project Path="lab1/ex6/lab1_ex6_task1/lab1_ex6_task1.vcxproj" />
+    <Project Path="lab1/ex6/lab1_ex6_task1/lab1_ex6_task1.vcxproj" Id="50eba7e1-632b-442a-8554-6f50bbbbdd27" />
   </Folder>
 </Solution>

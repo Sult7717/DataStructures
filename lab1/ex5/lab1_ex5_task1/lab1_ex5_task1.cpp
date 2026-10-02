@@ -20,7 +20,7 @@ int main()
     doubleArray[5] = 38.4;
     doubleArray[6] = -0.5;
     doubleArray[7] = 4.5;
-
+    
     // Вывод массива на экран
     for (int i = 0; i < doubleSize; i++)
     {

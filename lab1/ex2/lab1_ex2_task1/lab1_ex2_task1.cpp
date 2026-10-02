@@ -4,7 +4,11 @@ using namespace std;
 
 int main()
 {
-    int intArray[] = { 12, 21, 119, -80, 300, 75, 81, -8, 47, 31 };
+    int intArray[] = 
+    { 
+        12, 21, 119, -80, 300, 
+        75, 81, -8, 47, 31 
+    };
 
     cout << "Source array is:" << endl;
     for (int i = 0; i < 10; i++)
@@ -13,7 +17,6 @@ int main()
     }
     cout << endl;
 
-    // Сортировка методом пузырька по возрастанию
     for (int i = 0; i < 9; i++)
     {
         for (int j = 0; j < 9 - i; j++)
