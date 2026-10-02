@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// Функция считывания массива (выделяет динамическую память)
 int* ReadArray(int count)
 {
     int* values = new int[count];
@@ -15,7 +14,6 @@ int* ReadArray(int count)
     return values;
 }
 
-// Функция подсчета положительных элементов
 int CountPositiveValues(int* values, int count)
 {
     int result = 0;
