@@ -111,8 +111,8 @@ void Task1_FindPersonByLastName()
     else
     {
         cout << "A person's last name " << lastName
-            << " was found. Its index in the array is " << foundIndex
-            << endl;
+            << " was found. Its index in the array is " 
+            << foundIndex << endl;
     }
 
     ClearPeople(people, PeopleCount);
