@@ -2,7 +2,6 @@
 
 using namespace std;
 
-// Округляет переданное по ссылке значение до десятков
 void RoundToTens(int& value)
 {
     int remainder = value % 10;
