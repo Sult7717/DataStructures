@@ -23,7 +23,7 @@ int main()
     int size = 10;
     double* doubleArray = new double[size] 
     {
-        1.0, 15.0, -8.2, -3.5, 12.6, 38.4, -0.5, 4.5
+        1.0, 15.0, -8.2, -3.5, 12.6, 38.4, -0.5, 4.5, 16.7, 4.5
     };
 
     cout << "Array of double:" << endl;
