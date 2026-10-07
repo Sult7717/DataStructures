@@ -19,4 +19,7 @@
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="lab1_ex5_task5.txt" />
+  </ItemGroup>
 </Project>
