@@ -1,51 +1,60 @@
-﻿#include <iostream>
-#include <cstdlib> 
-#include <ctime>   
+﻿#include <cstdlib>
+#include <ctime>
+#include <iostream>
 
 using namespace std;
 
+//! \brief Максимальное значение элемента случайного массива (минимальное – 0).
+const int MaxRandomValue = 100;
+
+//! \brief Создает в динамической памяти массив случайных целых чисел.
+/**
+* Элементы массива принимают значения от 0 до MaxRandomValue включительно.
+* Память необходимо освободить вызовом delete[] в вызывающем коде.
+* \param arraySize – количество элементов массива (должно быть больше 0).
+* \return Указатель на первый элемент созданного массива.
+*/
 int* MakeRandomArray(int arraySize)
 {
     int* randomArray = new int[arraySize];
 
-    for (int i = 0; i < arraySize; i++)
+    for (int i = 0; i < arraySize; ++i)
     {
-        randomArray[i] = rand() % 101;
+        randomArray[i] = rand() % (MaxRandomValue + 1);
     }
 
     return randomArray;
 }
 
-void PrintArray(int* array, int size)
+//! \brief Выводит элементы массива целых чисел в одну строку.
+//! \param values – указатель на первый элемент массива.
+//! \param itemsCount – количество элементов в массиве.
+void PrintArray(const int* values, int itemsCount)
 {
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < itemsCount; ++i)
     {
-        cout << array[i] << " ";
+        cout << values[i] << " ";
     }
     cout << endl;
 }
 
+//! \brief Точка входа: создает и выводит три случайных массива разного размера.
+//! \return Код завершения программы (0 – успешное завершение).
 int main()
 {
-    srand(time(nullptr));
+    srand(static_cast<unsigned int>(time(nullptr)));
 
-    int size5 = 5;
-    int* array5 = MakeRandomArray(size5);
-    cout << "Random array of 5:" << endl;
-    PrintArray(array5, size5);
-    delete[] array5; 
+    const int arraySizes[] = { 5, 8, 13 };
 
-    int size8 = 8;
-    int* array8 = MakeRandomArray(size8);
-    cout << "Random array of 8:" << endl;
-    PrintArray(array8, size8);
-    delete[] array8;
+    for (int arraySize : arraySizes)
+    {
+        int* randomArray = MakeRandomArray(arraySize);
 
-    int size13 = 13;
-    int* array13 = MakeRandomArray(size13);
-    cout << "Random array of 13:" << endl;
-    PrintArray(array13, size13);
-    delete[] array13;
+        cout << "Random array of " << arraySize << ":" << endl;
+        PrintArray(randomArray, arraySize);
+
+        delete[] randomArray;
+    }
 
     return 0;
 }

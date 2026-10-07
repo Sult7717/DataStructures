@@ -29,7 +29,9 @@
     <Project Path="lab1/ex5/lab1_ex5_task2/lab1_ex5_task2.vcxproj" Id="758500b1-66f3-45c1-96c8-acabb96219b9" />
     <Project Path="lab1/ex5/lab1_ex5_task3/lab1_ex5_task3.vcxproj" Id="5d15011c-e2a4-4a12-b1fc-5273dcef5ecd" />
     <Project Path="lab1/ex5/lab1_ex5_task4/lab1_ex5_task4.vcxproj" Id="f9cad5f7-fde6-4f91-bf0b-965b33ac5391" />
-    <Project Path="lab1/ex5/lab1_ex5_task5_(leak_fix)/lab1_ex5_task5_(leak_fix).vcxproj" Id="2ef99484-b2f0-4ffe-91bd-9f2b33ade170" />
+    <Project Path="lab1/ex5/lab1_ex5_task5/lab1_ex5_task5.vcxproj" Id="2ef99484-b2f0-4ffe-91bd-9f2b33ade170" />
+    <Project Path="lab1/ex5/lab1_ex5_task6/lab1_ex5_task6.vcxproj" Id="52e4fca9-3547-495b-b05e-615974b1a6e9" />
+    <Project Path="lab1/ex5/lab1_ex5_task7/lab1_ex5_task7.vcxproj" Id="ebe2be3c-9ef6-474a-90bf-6327d4a43457" />
   </Folder>
   <Folder Name="/lab1/ex6/">
     <Project Path="lab1/ex6/lab1_ex6_task1/lab1_ex6_task1.vcxproj" Id="50eba7e1-632b-442a-8554-6f50bbbbdd27" />

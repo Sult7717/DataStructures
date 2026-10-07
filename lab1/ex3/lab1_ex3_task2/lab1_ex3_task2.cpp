@@ -2,50 +2,47 @@
 
 using namespace std;
 
+//! \brief Округляет целое число до десятков.
+/**
+* Если последняя цифра числа (по модулю) меньше 5, число округляется в сторону
+* нуля, иначе – от нуля. Например: 14 -> 10, 191 -> 190, 27 -> 30, -15 -> -20.
+* \param value – округляемое число, передается по ссылке и изменяется.
+*/
 void RoundToTens(int& value)
 {
-    int remainder = value % 10;
+    int lastDigit = value % 10;
 
-    if (remainder < 0)
+    if (lastDigit < 0)
     {
-        remainder = -remainder;
+        lastDigit = -lastDigit;
     }
 
-    if (remainder < 5)
+    if (lastDigit < 5)
     {
         value = value / 10 * 10;
     }
+    else if (value >= 0)
+    {
+        value = (value / 10 + 1) * 10;
+    }
     else
     {
-        if (value >= 0)
-        {
-            value = (value / 10 + 1) * 10;
-        }
-        else
-        {
-            value = (value / 10 - 1) * 10;
-        }
+        value = (value / 10 - 1) * 10;
     }
 }
 
+//! \brief Точка входа: округляет набор чисел до десятков и выводит результат.
+//! \return Код завершения программы (0 – успешное завершение).
 int main()
 {
-    int number = 0;
-    char choice = 'n';
+    const int testNumbers[] = { 14, 191, 27, -14, -15, 5, 0 };
 
-    do
+    for (int number : testNumbers)
     {
-        cout << "Enter an integer to round: ";
-        cin >> number;
-
         cout << "For " << number << " ";
         RoundToTens(number);
         cout << "rounded value is " << number << endl;
-
-        cout << "Do you want to round another number? (y/n): ";
-        cin >> choice;
-        cout << endl;
-    } while (choice == 'y' || choice == 'Y');
+    }
 
     return 0;
 }

@@ -1,18 +1,34 @@
-﻿#include <iostream>
+﻿#include <iomanip>
+#include <iostream>
 
 using namespace std;
 
+//! \brief Количество элементов динамического массива вещественных чисел.
+const int DoubleArraySize = 8;
+
+//! \brief Количество элементов динамического массива логических значений.
+const int BoolArraySize = 8;
+
+//! \brief Количество знаков после запятой при выводе вещественных чисел.
+const int OutputPrecision = 1;
+
+//! \brief Точка входа: создает в динамической памяти массивы double и bool.
+/**
+* Каждый массив инициализируется в коде программы, выводится на экран,
+* после чего память освобождается.
+* \return Код завершения программы (0 – успешное завершение).
+*/
 int main()
 {
-    cout << "Array of double:" << endl;
+    cout << fixed << setprecision(OutputPrecision) << boolalpha;
 
-    int doubleSize = 8;
-    double* doubleArray = new double[doubleSize]
+    cout << "Array of double:" << endl;
+    double* doubleArray = new double[DoubleArraySize]
     {
         1.0, 15.0, -8.2, -3.5, 12.6, 38.4, -0.5, 4.5
     };
 
-    for (int i = 0; i < doubleSize; i++)
+    for (int i = 0; i < DoubleArraySize; ++i)
     {
         cout << doubleArray[i] << " ";
     }
@@ -21,16 +37,14 @@ int main()
     delete[] doubleArray;
 
     cout << "Array of bool:" << endl;
-
-    int boolSize = 8;
-    bool* boolArray = new bool[boolSize] 
+    bool* boolArray = new bool[BoolArraySize]
     {
         true, false, true, true, false, true, false, false
     };
 
-    for (int i = 0; i < boolSize; i++)
+    for (int i = 0; i < BoolArraySize; ++i)
     {
-        cout << boolalpha << boolArray[i] << " ";
+        cout << boolArray[i] << " ";
     }
     cout << endl;
 

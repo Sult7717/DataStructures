@@ -1,0 +1,9 @@
+﻿Задание 3.1. Возведение в степень: GetPower() и DemoGetPower()
+Папка: lab1/ex3/lab1_ex3_task1
+
+Условие:
+Напишите функцию double GetPower(double base, int exponent), возводящую base
+в степень exponent. Вызовите её несколько раз в main() и выведите результаты
+(например, 2.0 ^ 5 = 32). Затем напишите функцию void DemoGetPower(double base,
+int exponent), которая вызывает GetPower() и выводит результат в формате
+base ^ exponent = result; main() должна несколько раз вызывать DemoGetPower().
