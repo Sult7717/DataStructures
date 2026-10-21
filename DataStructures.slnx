@@ -36,5 +36,7 @@
   <Folder Name="/lab0/ex6/">
     <Project Path="lab1/ex6/lab1_ex6_task1/lab1_ex6_task1.vcxproj" Id="50eba7e1-632b-442a-8554-6f50bbbbdd27" />
   </Folder>
-  <Folder Name="/lab1/" />
+  <Folder Name="/lab1/">
+    <Project Path="lab2/lab2/lab2.vcxproj" Id="9faeb81b-d082-421a-827e-f97816fd6c07" />
+  </Folder>
 </Solution>
