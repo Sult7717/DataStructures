@@ -42,7 +42,11 @@ void PrintArray(const int* values, int itemsCount)
 //! \return Код завершения программы (0 – успешное завершение).
 int main()
 {
-    srand(static_cast<unsigned int>(time(nullptr)));
+    //TODO:
+    srand(time(nullptr));
+    //time(nullptr) возвращает текущее время в секундах прошедшее с 01.01.1970
+    //static_cast<unsigned int> переводит значение в другой тип данных
+    //можно было использовать srand(time(0)), но компилятор жалуется на это
 
     const int arraySizes[] = { 5, 8, 13 };
 
